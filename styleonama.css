@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    background-color: rgb(240, 233, 233);
+}
+
+.heder{
+    background-color: white;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: red;
+    
+}
+
+.logo img{
+    width: 5%;
+}
+
+.logo{
+    width: 100%;
+    text-align: center;
+}
+
+.navigationBar{
+    width: 100%;
+    overflow: auto;
+    margin:0px auto;
+    left:0px;
+    right:0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigationBar a{  
+    float: left;
+    padding: 5px;
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    border:lightgray solid 0.2px;
+    border-left: none;
+    font-weight: bold;
+    margin:0px auto;
+    left:0px;
+    right:0px;
+    border-width: thin;
+    font-size: 12px;
+}
+.perc1{
+    width:10%;
+}
+.perc3{
+    width:30%;
+}
+
+.naslov{
+    text-transform: uppercase;
+    color: red;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.homeSadrzaj{
+    background-color:rgb(253, 249, 249);
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px 10px;
+    box-shadow: black 1px 1px 1px 1px ;
+}
+
+.homeSadrzaj h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
